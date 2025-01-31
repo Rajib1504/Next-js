@@ -1,0 +1,93 @@
+[
+      {
+        "service_id": 1,
+        "name": "Web Development",
+        "description": "Custom websites and web applications tailored to your needs.",
+        "price": "$1500",
+        "category": "IT Services",
+        "duration": "4-6 weeks",
+        "image_url": "https://www.simplilearn.com/ice9/free_resources_article_thumb/is_web_development_good_career.jpg"
+      },
+      {
+        "service_id": 2,
+        "name": "Graphic Design",
+        "description": "Logo design, branding, and graphic materials for your business.",
+        "price": "$500",
+        "category": "Design",
+        "duration": "2 weeks",
+        "image_url": "https://www.rmcad.edu/wp-content/uploads/2024/04/shutterstock_434383288.jpg"
+      },
+      {
+        "service_id": 3,
+        "name": "Digital Marketing",
+        "description": "Comprehensive marketing strategies to grow your online presence.",
+        "price": "$1000/month",
+        "category": "Marketing",
+        "duration": "Ongoing",
+        "image_url": "https://s3-ap-south-1.amazonaws.com/ricedigitals3bucket/AUPortalContent/2021/05/22121232/Untitled-design-391.png"
+      },
+      {
+        "service_id": 4,
+        "name": "SEO Optimization",
+        "description": "Enhance your website's search engine visibility and traffic.",
+        "price": "$800",
+        "category": "Marketing",
+        "duration": "1-3 months",
+        "image_url": "https://directiveconsulting.com/wp-content/uploads/2019/07/SEO-strategy.jpg"
+      },
+      {
+        "service_id": 5,
+        "name": "Mobile App Development",
+        "description": "iOS and Android app development for various industries.",
+        "price": "$2500",
+        "category": "IT Services",
+        "duration": "6-8 weeks",
+        "image_url": "https://riseuplabs.com/wp-content/uploads/2021/07/mobile-application-development-guidelines-riseuplabs.jpg"
+      },
+      {
+        "service_id": 6,
+        "name": "Content Writing",
+        "description": "Engaging and SEO-friendly content for blogs, websites, and more.",
+        "price": "$300/article",
+        "category": "Content Creation",
+        "duration": "3-5 days per article",
+        "image_url": "https://www.simplilearn.com/ice9/free_resources_article_thumb/How_To_Become_A_Content_Writer.jpg"
+      },
+      {
+        "service_id": 7,
+        "name": "Photography",
+        "description": "Professional photography services for events and products.",
+        "price": "$200/hour",
+        "category": "Media",
+        "duration": "Per session",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Photographer_Photographing_Nevada_Mountains.jpg/800px-Photographer_Photographing_Nevada_Mountains.jpg"
+      },
+      {
+        "service_id": 8,
+        "name": "Video Editing",
+        "description": "High-quality video editing for marketing, events, or personal use.",
+        "price": "$400",
+        "category": "Media",
+        "duration": "1 week",
+        "image_url": "https://i.pcmag.com/imagery/roundups/07zK5ZMCRXxdm3S7ZnlT3Xw-3..v1705594054.jpg"
+      },
+      {
+        "service_id": 9,
+        "name": "Cloud Hosting Solutions",
+        "description": "Scalable and secure cloud hosting for websites and applications.",
+        "price": "$50/month",
+        "category": "IT Services",
+        "duration": "Ongoing",
+        "image_url": "https://insightcubes.com/wp-content/uploads/2022/06/CLOUD-HOSTING-SOLUTIONS.jpg"
+      },
+      {
+        "service_id": 10,
+        "name": "Virtual Assistance",
+        "description": "Administrative and technical support for businesses remotely.",
+        "price": "$20/hour",
+        "category": "Support",
+        "duration": "As needed",
+        "image_url": "https://www.thetilt.com/wp-content/uploads/2023/02/Full-tilt-image-e1675698202326.jpg"
+      }
+    ]
+    
