@@ -1,8 +1,11 @@
 "use client";
+import { useRouter } from "next/navigation";
 import React, { useEffect, useState } from "react";
 
 const services = () => {
+  const router = useRouter();
   const [items, setItems] = useState(null);
+  const isLogin = true;
   useEffect(() => {
     fetch("/services.json")
       .then((res) => res.json())
@@ -11,7 +14,15 @@ const services = () => {
         console.log(error);
       });
   }, []);
-  console.log(items);
+  // console.log(items);
+  const handleDetails = (id) => {
+    if (isLogin) {
+      router.push(`/Services/${id}`);
+      // router.push('/Services/')
+    } else {
+      router.push("/");
+    }
+  };
   return (
     <div className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto ">
       {items?.map((item, idx) => (
@@ -30,6 +41,12 @@ const services = () => {
               <p className="text-gray-400">{item.price} $</p>
               <p className="text-gray-400">{item.duration}</p>
             </div>
+            <button
+              onClick={() => handleDetails(item.service_id)}
+              className="w-36 bg-gray-400 hover:bg-gray-600 hover:scale-110 p-2 rounded-full mt-2 hover:duration-150"
+            >
+              Details
+            </button>
           </div>
         </div>
       ))}
